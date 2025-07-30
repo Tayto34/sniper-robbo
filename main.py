@@ -52,9 +52,9 @@ def main():
     app.add_handler(CommandHandler("test", test_alert))
     app.add_handler(CommandHandler("fire", fire_alert))
     app.add_handler(CommandHandler("start", start))
-app.add_handler(CommandHandler("test", test_alert))
-app.add_handler(CommandHandler("fire", fire_alert))
-app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
+    app.add_handler(CommandHandler("test", test_alert))
+    app.add_handler(CommandHandler("fire", fire_alert))
+    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
 
     print("✅ Robbo Sniper running...")
     app.run_polling()
