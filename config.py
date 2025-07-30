@@ -1,4 +1,5 @@
-# config.py
+ 
+import os
 
-BOT_TOKEN = "8439728785:AAFGas03kp3M3KSAvrFjaPdpsVY3-hTZbRk"
-USER_ID = 5958794945
+TELEGRAM_TOKEN = os.getenv("BOT_TOKEN")
+TELEGRAM_USER_ID = os.getenv("USER_ID")
