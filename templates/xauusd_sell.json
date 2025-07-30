@@ -1,0 +1,10 @@
+{
+  "pair": "XAU/USD",
+  "type": "sell",
+  "rules": {
+    "candle_close_below": 3318.00,
+    "rsi_below": 43,
+    "price_below": 3315.50
+  },
+  "message": "🔻 XAU/USD Sniper Sell Signal Confirmed 🔻"
+}
