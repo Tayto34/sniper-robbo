@@ -64,6 +64,7 @@ def get_rsi(symbol):
         return None
 
 sent_entries = set()
+send_alert("🚀 Test Alert from Robbo — You’re locked in Tayto! 💥")
 
 while True:
     if not in_session():
